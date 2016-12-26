@@ -5,12 +5,9 @@ body {
 }
 
 .header {
-  background-color: #404041;
+  background-color: $header-background;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
+  @include flexbox-row-centered;
 }
 
 h1 {
@@ -19,10 +16,19 @@ h1 {
 }
 #number {
   font-weight: 700;
-  color: #ed458b;
+  color: $number-font-color;
 }
 
 #guesser {
   font-weight: 300;
-  color: #e6e7e8;
+  color: $guesser-font-color;
+}
+
+.input {
+  @include input-styles;
+}
+
+#user-guess {
+  width: 200px;
+  margin: 10px;
 }

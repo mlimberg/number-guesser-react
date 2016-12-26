@@ -1,0 +1,33 @@
+@mixin flexbox-row-centered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin input-styles {
+  outline: none;
+  height: 25px;
+  font-size: 18px;
+}
+
+@mixin button-styles {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #D0D2D3;
+  color: white;
+  font-size: 14px;
+  height: 29px;
+  vertical-align: middle;
+  font-weight: 100;
+  box-shadow: 1px 1px 1px 0px #000;
+  &:hover {
+    background-color: $number-font-color;
+    cursor: pointer;
+  }
+  &:disabled {
+    background-color: #D0D2D3;
+    cursor: default;
+  }
+}
