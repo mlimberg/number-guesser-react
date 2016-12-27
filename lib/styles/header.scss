@@ -1,0 +1,34 @@
+body {
+  width: 100%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background-color: $header-background;
+  width: 100%;
+  @include flexbox-row-centered;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 10px;
+}
+#number {
+  font-weight: 700;
+  color: $number-font-color;
+}
+
+#guesser {
+  font-weight: 300;
+  color: $guesser-font-color;
+}
+
+.input {
+  @include input-styles;
+}
+
+#user-guess {
+  width: 200px;
+  margin: 10px;
+}
