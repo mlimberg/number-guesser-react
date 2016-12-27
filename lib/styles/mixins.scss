@@ -9,6 +9,7 @@
   outline: none;
   height: 25px;
   font-size: 18px;
+  font-weight: 100;
 }
 
 @mixin button-styles {
@@ -17,7 +18,7 @@
   border-radius: 5px;
   background-color: #D0D2D3;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   height: 29px;
   vertical-align: middle;
   font-weight: 100;
