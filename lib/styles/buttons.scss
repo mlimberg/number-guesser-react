@@ -1,4 +1,7 @@
 .button {
   @include button-styles;
-  width: 60px;
+}
+
+#updateRangeBtn {
+  width: 70px;
 }
