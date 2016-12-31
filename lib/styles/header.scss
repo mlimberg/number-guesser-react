@@ -4,7 +4,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.header {
+#header {
   background-color: $header-background;
   width: 100%;
   @include flexbox-row-centered;
