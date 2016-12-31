@@ -1,3 +1,22 @@
+.guessSection {
+  margin: 10px;
+}
+
 #reset-game-btn {
   width: 95px;
+}
+
+#extend-range-btn {
+  font-style: underline;
+  color: $number-font-color;
+  text-decoration: underline;
+  &:hover {
+    cursor: pointer;
+    font-weight: bolder;
+  }
+}
+
+.noGuess {
+  color: $button-main-background;
+  font-style: italic;
 }
