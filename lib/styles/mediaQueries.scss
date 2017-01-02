@@ -1,0 +1,34 @@
+@media (max-width: 400px) {
+  #header {
+    display: block;
+  }
+
+  #number, #guesser {
+    font-size: 60px;
+  }
+
+  #inputSection {
+    display: block;
+  }
+
+  #user-guess {
+    width: 90%;
+  }
+
+  .button {
+    width: 100px;
+  }
+
+  #minMaxSection, #rangeSection {
+    display: block;
+  }
+
+  #minRangeInput, #maxRangeInput {
+    width: 45%;
+  }
+
+  #updateRangeBtn, #reset-game-btn {
+    display: inline-block;
+  }
+
+}
