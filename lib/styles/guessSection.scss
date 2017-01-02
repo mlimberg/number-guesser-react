@@ -49,3 +49,12 @@
   margin: 10px auto;
   font-size: 50px;
 }
+
+.winnerButtons {
+  @include flexbox-row-centered;
+}
+
+.winnerBtn {
+  width: 100px;
+  height: 40px;
+}
