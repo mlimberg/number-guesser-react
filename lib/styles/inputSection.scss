@@ -1,5 +1,7 @@
 #inputSection {
+  width: 90%;
   @include flexbox-row-centered;
+  margin: auto;
 }
 
 .rangeInput {
@@ -9,4 +11,40 @@
 
 #user-submit-btn, #clear-input-btn {
   margin: 5px;
+}
+
+#rangeSection, #minMaxSection {
+  @include flexbox-row-centered;
+}
+
+.displayRange {
+  padding: 10px;
+  color: #404041;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 18px;
+  height: 30px;
+  font-weight: lighter;
+  width: 50%;
+}
+
+#rangeSection {
+  width: 90%;
+  margin: auto;
+}
+
+#errorMessage {
+  background-color: #ff4d4d;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+  font-size: 18px;
+  height: 30px;
+  font-weight: lighter;
 }
