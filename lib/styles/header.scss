@@ -23,12 +23,3 @@ h1 {
   font-weight: 300;
   color: $guesser-font-color;
 }
-
-.input {
-  @include input-styles;
-}
-
-#user-guess {
-  width: 200px;
-  margin: 10px;
-}
