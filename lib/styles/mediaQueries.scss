@@ -7,7 +7,7 @@
     font-size: 60px;
   }
 
-  #inputSection {
+  #inputSection, #minMaxSection {
     display: block;
   }
 
@@ -19,12 +19,8 @@
     width: 100px;
   }
 
-  #minMaxSection, #rangeSection {
-    display: block;
-  }
-
   #minRangeInput, #maxRangeInput {
-    width: 45%;
+    width: 40%;
   }
 
   #updateRangeBtn, #reset-game-btn {
