@@ -24,7 +24,11 @@
   margin: auto;
   font-size: 24px;
   font-weight: lighter;
-  width: 50%;
+  width: 90%;
+}
+
+.validGuess {
+  margin: 30px auto;
 }
 
 .lastGuessNumber {
@@ -34,7 +38,6 @@
   margin: auto;
   font-size: 100px;
   font-weight: 100;
-  padding: 10px;
   width: 300px;
   height: 100px;
   overflow-x: visible;
@@ -45,7 +48,7 @@
   color: $number-font-color;
   display: flex;
   justify-content: center;
-  margin: 10px auto;
+  margin: 20px auto;
   font-size: 50px;
 }
 
@@ -56,4 +59,5 @@
 .winnerBtn {
   width: 100px;
   height: 40px;
+  margin-top: 20px;
 }

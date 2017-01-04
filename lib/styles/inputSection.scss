@@ -1,6 +1,19 @@
-#inputSection {
-  width: 90%;
+#inputSection, #minMaxSection {
+  width: 95%;
   @include flexbox-row-centered;
+  margin: auto;
+}
+
+.input {
+  @include input-styles;
+}
+
+#user-guess {
+  width: 200px;
+  margin: 5px;
+}
+
+#rangeSection {
   margin: auto;
 }
 
@@ -13,10 +26,6 @@
   margin: 5px;
 }
 
-#rangeSection, #minMaxSection {
-  @include flexbox-row-centered;
-}
-
 .displayRange {
   padding: 10px;
   color: #404041;
@@ -27,11 +36,6 @@
   font-size: 18px;
   height: 30px;
   font-weight: lighter;
-}
-
-#rangeSection {
-  width: 90%;
-  margin: auto;
 }
 
 #errorMessage {
